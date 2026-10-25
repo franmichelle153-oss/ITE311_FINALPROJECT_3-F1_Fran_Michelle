@@ -12,6 +12,7 @@ Route::get('/genres', function () {
     return view('genres');
 });
 
+// ---- ABOUT PAGE ----
 Route::get('/about', function () {
     return view('about');
 });
