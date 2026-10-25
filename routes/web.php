@@ -12,5 +12,6 @@ Route::get('/genres', function () {
     return view('genres');
 });
 
-// ---- ABOUT PAGE ----
-// (about route dito)
+Route::get('/about', function () {
+    return view('about');
+});
