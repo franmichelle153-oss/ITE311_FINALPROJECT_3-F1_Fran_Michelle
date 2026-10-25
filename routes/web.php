@@ -8,5 +8,6 @@ use Illuminate\Support\Facades\Route;
 // ---- GENRES PAGE ----
 // (genres route dito)
 
-// ---- ABOUT PAGE ----
-// (about route dito)
+Route::get('/about', function () {
+    return view('about');
+});
